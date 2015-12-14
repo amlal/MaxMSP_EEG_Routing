@@ -1,0 +1,13 @@
+{
+	"name": "LisaPark",
+	"type": "package",
+	"author": "Amar Lal",
+	"description": "Patches for Lisa Park's installation.",
+	"version": "Ongoing...",
+	"major_version": "0",
+	"minor_version": “6”,
+	"min_max_version": “6.1”,
+	"min_osx_version": “10.9.5”,
+	"min_win_version": "None",
+	
+}
