@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 45.0, 1280.0, 725.0 ],
+		"rect" : [ 0.0, 71.0, 1280.0, 699.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -576,7 +576,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 46.58091, 21.474514, 99.0, 20.0 ],
-					"text" : "udpreceive 5001"
+					"text" : "udpreceive 5000"
 				}
 
 			}
@@ -589,8 +589,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 46.58091, 47.548866, 159.0, 20.0 ],
-					"text" : "OSC-route /muse/elements/"
+					"patching_rect" : [ 46.58091, 47.548866, 156.0, 20.0 ],
+					"text" : "OSC-route /muse/elements"
 				}
 
 			}
