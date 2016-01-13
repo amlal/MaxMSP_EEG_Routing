@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 39.0, 87.0, 1304.0, 446.0 ],
+		"rect" : [ 45.0, 167.0, 1304.0, 446.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1240.681763, 255.0, 51.0, 20.0 ],
+					"text" : "r m.eeg"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -298,11 +312,11 @@
 					"fontsize" : 12.0,
 					"id" : "obj-23",
 					"maxclass" : "newobj",
-					"numinlets" : 13,
+					"numinlets" : 14,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 213.0, 287.0, 948.363525, 20.0 ],
-					"text" : "switch 12"
+					"patching_rect" : [ 213.0, 287.0, 1023.988586, 20.0 ],
+					"text" : "switch 13"
 				}
 
 			}
@@ -423,8 +437,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 27.0, 201.0, 149.0, 152.0 ],
-					"text" : "append None, append Concentration, append Mellow, append Alpha, append Beta, append Delta, append Theta, append Gamma, append Alpha Relative, append Beta Relative, append Delta Relative, append Theta Relative, append Gamma Relative"
+					"patching_rect" : [ 27.0, 201.0, 166.0, 152.0 ],
+					"text" : "append None, append Concentration, append Mellow, append Alpha, append Beta, append Delta, append Theta, append Gamma, append Alpha Relative, append Beta Relative, append Delta Relative, append Theta Relative, append Gamma Relativem append EEG"
 				}
 
 			}
@@ -656,6 +670,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 13 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
