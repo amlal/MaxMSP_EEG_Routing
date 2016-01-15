@@ -29,6 +29,130 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Avenir Book",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-51",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 14.5, 15.600464, 86.0, 23.0 ],
+					"presentation_rect" : [ 717.06311, 362.100464, 0.0, 0.0 ],
+					"text" : "Band Powers"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "gswitch",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 899.0, 483.0, 41.0, 32.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "bpatcher",
+					"name" : "Muse.GraphValueToggle.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 611.0, 380.0, 91.0, 53.100464 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "bpatcher",
+					"name" : "Muse.GraphValueToggle.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 525.0, 380.0, 91.0, 53.100464 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "bpatcher",
+					"name" : "Muse.GraphValueToggle.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 439.0, 380.0, 91.0, 53.100464 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-41",
+					"maxclass" : "bpatcher",
+					"name" : "Muse.GraphValueToggle.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 353.0, 380.0, 91.0, 53.100464 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-42",
+					"maxclass" : "bpatcher",
+					"name" : "Muse.GraphValueToggle.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 267.0, 380.0, 91.0, 53.100464 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-44",
+					"maxclass" : "bpatcher",
+					"name" : "Muse.GraphValueToggle.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 181.0, 380.0, 91.0, 53.100464 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-47",
+					"maxclass" : "bpatcher",
+					"name" : "Muse.GraphValueToggle.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 95.0, 380.0, 91.0, 53.100464 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-48",
+					"maxclass" : "bpatcher",
+					"name" : "Muse.GraphValueToggle.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 9.0, 380.0, 91.0, 53.100464 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"hidden" : 1,
@@ -37,7 +161,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 443.323029, 93.0, 20.0 ],
+					"patching_rect" : [ 9.0, 472.323029, 93.0, 20.0 ],
 					"text" : "r GraphFullload"
 				}
 
@@ -52,7 +176,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 611.0, 473.100464, 55.0, 18.0 ],
+					"patching_rect" : [ 611.0, 502.100464, 55.0, 18.0 ],
 					"text" : "set EEG"
 				}
 
@@ -67,7 +191,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 527.0, 473.100464, 73.0, 18.0 ],
+					"patching_rect" : [ 527.0, 502.100464, 73.0, 18.0 ],
 					"text" : "set Gamma"
 				}
 
@@ -82,7 +206,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 439.0, 473.100464, 60.0, 18.0 ],
+					"patching_rect" : [ 439.0, 502.100464, 60.0, 18.0 ],
 					"text" : "set Theta"
 				}
 
@@ -97,7 +221,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 353.0, 473.100464, 58.0, 18.0 ],
+					"patching_rect" : [ 353.0, 502.100464, 58.0, 18.0 ],
 					"text" : "set Delta"
 				}
 
@@ -112,7 +236,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 267.0, 473.100464, 55.0, 18.0 ],
+					"patching_rect" : [ 267.0, 502.100464, 55.0, 18.0 ],
 					"text" : "set Beta"
 				}
 
@@ -127,7 +251,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 179.0, 473.100464, 60.0, 18.0 ],
+					"patching_rect" : [ 179.0, 502.100464, 60.0, 18.0 ],
 					"text" : "set Alpha"
 				}
 
@@ -142,7 +266,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 112.0, 473.100464, 67.0, 18.0 ],
+					"patching_rect" : [ 112.0, 502.100464, 67.0, 18.0 ],
 					"text" : "set Mellow"
 				}
 
@@ -157,7 +281,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 473.100464, 105.0, 18.0 ],
+					"patching_rect" : [ 9.0, 502.100464, 105.0, 18.0 ],
 					"text" : "set Concentration"
 				}
 
@@ -193,94 +317,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-10",
-					"maxclass" : "bpatcher",
-					"name" : "Muse.GraphValueToggle.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 611.0, 400.0, 91.0, 33.100464 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-19",
-					"maxclass" : "bpatcher",
-					"name" : "Muse.GraphValueToggle.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 525.0, 400.0, 91.0, 33.100464 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-21",
-					"maxclass" : "bpatcher",
-					"name" : "Muse.GraphValueToggle.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 439.0, 400.0, 91.0, 33.100464 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-41",
-					"maxclass" : "bpatcher",
-					"name" : "Muse.GraphValueToggle.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 353.0, 400.0, 91.0, 33.100464 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-42",
-					"maxclass" : "bpatcher",
-					"name" : "Muse.GraphValueToggle.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 267.0, 400.0, 91.0, 33.100464 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-44",
-					"maxclass" : "bpatcher",
-					"name" : "Muse.GraphValueToggle.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 181.0, 400.0, 91.0, 33.100464 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-47",
-					"maxclass" : "bpatcher",
-					"name" : "Muse.GraphValueToggle.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 95.0, 400.0, 91.0, 33.100464 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-48",
-					"maxclass" : "bpatcher",
-					"name" : "Muse.GraphValueToggle.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 400.0, 91.0, 33.100464 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontface" : 2,
 					"fontname" : "Avenir Book",
 					"fontsize" : 12.0,
@@ -289,7 +325,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 717.06311, 400.100464, 60.0, 23.0 ],
+					"patching_rect" : [ 29.5, 49.100464, 60.0, 23.0 ],
 					"text" : "Relative"
 				}
 
@@ -304,7 +340,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 717.06311, 382.100464, 60.0, 23.0 ],
+					"patching_rect" : [ 29.5, 31.100464, 60.0, 23.0 ],
 					"text" : "Absolute"
 				}
 
@@ -318,7 +354,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 703.06311, 433.100464, 59.0, 20.0 ],
+					"patching_rect" : [ 15.5, 82.100464, 59.0, 20.0 ],
 					"text" : "s relative"
 				}
 
@@ -333,9 +369,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 703.06311, 385.100464, 18.0, 34.0 ],
+					"patching_rect" : [ 15.5, 34.100464, 18.0, 34.0 ],
 					"size" : 2,
-					"value" : 0
+					"value" : 1
 				}
 
 			}
@@ -433,6 +469,7 @@
 				"box" : 				{
 					"hidden" : 1,
 					"id" : "obj-33",
+					"int" : 1,
 					"maxclass" : "gswitch",
 					"numinlets" : 3,
 					"numoutlets" : 1,
@@ -446,6 +483,7 @@
 				"box" : 				{
 					"hidden" : 1,
 					"id" : "obj-25",
+					"int" : 1,
 					"maxclass" : "gswitch",
 					"numinlets" : 3,
 					"numoutlets" : 1,
@@ -459,6 +497,7 @@
 				"box" : 				{
 					"hidden" : 1,
 					"id" : "obj-24",
+					"int" : 1,
 					"maxclass" : "gswitch",
 					"numinlets" : 3,
 					"numoutlets" : 1,
@@ -472,6 +511,7 @@
 				"box" : 				{
 					"hidden" : 1,
 					"id" : "obj-23",
+					"int" : 1,
 					"maxclass" : "gswitch",
 					"numinlets" : 3,
 					"numoutlets" : 1,
@@ -485,6 +525,7 @@
 				"box" : 				{
 					"hidden" : 1,
 					"id" : "obj-22",
+					"int" : 1,
 					"maxclass" : "gswitch",
 					"numinlets" : 3,
 					"numoutlets" : 1,
