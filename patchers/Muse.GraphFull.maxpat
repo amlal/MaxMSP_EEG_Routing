@@ -29,6 +29,102 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "bpatcher",
+					"name" : "Muse.GraphValueToggle.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 611.0, 400.0, 93.0, 32.0 ],
+					"presentation_rect" : [ 609.0, 396.600464, 0.0, 0.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "bpatcher",
+					"name" : "Muse.GraphValueToggle.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 525.0, 400.0, 93.0, 32.0 ],
+					"presentation_rect" : [ 523.0, 396.600464, 0.0, 0.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "bpatcher",
+					"name" : "Muse.GraphValueToggle.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 439.0, 400.0, 93.0, 32.0 ],
+					"presentation_rect" : [ 437.0, 396.600464, 0.0, 0.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-41",
+					"maxclass" : "bpatcher",
+					"name" : "Muse.GraphValueToggle.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 353.0, 400.0, 93.0, 32.0 ],
+					"presentation_rect" : [ 351.0, 396.600464, 0.0, 0.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-42",
+					"maxclass" : "bpatcher",
+					"name" : "Muse.GraphValueToggle.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 267.0, 400.0, 93.0, 32.0 ],
+					"presentation_rect" : [ 265.0, 396.600464, 0.0, 0.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-44",
+					"maxclass" : "bpatcher",
+					"name" : "Muse.GraphValueToggle.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 181.0, 400.0, 93.0, 32.0 ],
+					"presentation_rect" : [ 179.0, 396.600464, 0.0, 0.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-47",
+					"maxclass" : "bpatcher",
+					"name" : "Muse.GraphValueToggle.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 95.0, 400.0, 93.0, 32.0 ],
+					"presentation_rect" : [ 93.0, 396.600464, 0.0, 0.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-48",
+					"maxclass" : "bpatcher",
+					"name" : "Muse.GraphValueToggle.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 9.0, 400.0, 93.0, 32.0 ],
+					"presentation_rect" : [ 7.0, 396.600464, 0.0, 0.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontface" : 2,
 					"fontname" : "Avenir Book",
 					"fontsize" : 12.0,
@@ -37,7 +133,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 699.0, 418.0, 60.0, 23.0 ],
+					"patching_rect" : [ 737.0, 413.0, 60.0, 23.0 ],
 					"text" : "Relative"
 				}
 
@@ -52,7 +148,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 699.0, 400.0, 60.0, 23.0 ],
+					"patching_rect" : [ 737.0, 395.0, 60.0, 23.0 ],
 					"text" : "Absolute"
 				}
 
@@ -66,7 +162,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 273.0, 495.0, 59.0, 20.0 ],
+					"patching_rect" : [ 723.0, 446.0, 59.0, 20.0 ],
 					"text" : "s relative"
 				}
 
@@ -81,7 +177,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 685.0, 403.0, 18.0, 34.0 ],
+					"patching_rect" : [ 723.0, 398.0, 18.0, 34.0 ],
 					"size" : 2,
 					"value" : 0
 				}
@@ -342,7 +438,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 618.5, 420.0, 36.0, 23.0 ],
+					"patching_rect" : [ 618.5, 453.0, 36.0, 23.0 ],
 					"text" : "EEG"
 				}
 
@@ -357,7 +453,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 527.0, 420.0, 56.0, 23.0 ],
+					"patching_rect" : [ 527.0, 453.0, 56.0, 23.0 ],
 					"text" : "Gamma"
 				}
 
@@ -372,7 +468,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 450.0, 420.0, 45.0, 23.0 ],
+					"patching_rect" : [ 450.0, 453.0, 45.0, 23.0 ],
 					"text" : "Theta"
 				}
 
@@ -387,7 +483,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 368.0, 420.0, 43.0, 23.0 ],
+					"patching_rect" : [ 368.0, 453.0, 43.0, 23.0 ],
 					"text" : "Delta"
 				}
 
@@ -402,7 +498,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 285.0, 420.0, 39.0, 23.0 ],
+					"patching_rect" : [ 285.0, 453.0, 39.0, 23.0 ],
 					"text" : "Beta"
 				}
 
@@ -417,7 +513,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 200.0, 420.0, 45.0, 23.0 ],
+					"patching_rect" : [ 200.0, 453.0, 45.0, 23.0 ],
 					"text" : "Alpha"
 				}
 
@@ -432,7 +528,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 113.5, 420.0, 54.0, 23.0 ],
+					"patching_rect" : [ 113.5, 453.0, 54.0, 23.0 ],
 					"text" : "Mellow"
 				}
 
@@ -447,7 +543,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 420.0, 93.0, 23.0 ],
+					"patching_rect" : [ 10.0, 453.0, 93.0, 23.0 ],
 					"text" : "Concentration"
 				}
 
@@ -490,7 +586,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 590.0, 397.0, 93.0, 32.0 ]
+					"patching_rect" : [ 609.0, 377.600464, 93.0, 32.0 ]
 				}
 
 			}
@@ -502,7 +598,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 507.0, 397.0, 93.0, 32.0 ]
+					"patching_rect" : [ 523.0, 377.600464, 93.0, 32.0 ]
 				}
 
 			}
@@ -514,7 +610,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 424.0, 397.0, 93.0, 32.0 ]
+					"patching_rect" : [ 437.0, 377.600464, 93.0, 32.0 ]
 				}
 
 			}
@@ -526,7 +622,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 341.0, 397.0, 93.0, 32.0 ]
+					"patching_rect" : [ 351.0, 377.600464, 93.0, 32.0 ]
 				}
 
 			}
@@ -538,7 +634,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 258.0, 397.0, 93.0, 32.0 ]
+					"patching_rect" : [ 265.0, 377.600464, 93.0, 32.0 ]
 				}
 
 			}
@@ -550,7 +646,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 174.0, 397.0, 93.0, 32.0 ]
+					"patching_rect" : [ 179.0, 377.600464, 93.0, 32.0 ]
 				}
 
 			}
@@ -562,7 +658,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 91.0, 397.0, 93.0, 32.0 ]
+					"patching_rect" : [ 93.0, 377.600464, 93.0, 32.0 ]
 				}
 
 			}
@@ -574,7 +670,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 397.0, 93.0, 32.0 ]
+					"patching_rect" : [ 7.0, 377.600464, 93.0, 32.0 ]
 				}
 
 			}
@@ -585,7 +681,7 @@
 					"name" : "Muse.GraphOnly.maxpat",
 					"numinlets" : 8,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 11.0, 678.0, 380.0 ]
+					"patching_rect" : [ 8.0, 11.0, 678.0, 380.0 ]
 				}
 
 			}
@@ -881,21 +977,28 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "Muse.GraphOnly.maxpat",
-				"bootpath" : "/Users/alal/Desktop/temp",
+				"bootpath" : "/Applications/Max 6.1/packages/LisaPark/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Muse.GraphPacker.maxpat",
-				"bootpath" : "/Users/alal/Desktop/temp",
+				"bootpath" : "/Applications/Max 6.1/packages/LisaPark/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Muse.GraphLineColor.maxpat",
-				"bootpath" : "/Users/alal/Desktop/temp",
+				"bootpath" : "/Applications/Max 6.1/packages/LisaPark/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Muse.GraphValueToggle.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/LisaPark/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

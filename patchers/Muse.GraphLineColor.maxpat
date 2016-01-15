@@ -152,10 +152,11 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.396078, 0.215686, 0.05098, 1.0 ],
+					"bgcolor" : [ 0.415686, 0.698039, 0.290196, 1.0 ],
 					"bgoncolor" : [ 0.490196, 0.066667, 0.384314, 1.0 ],
-					"bgovercolor" : [ 0.396078, 0.215686, 0.05098, 0.5 ],
-					"bgoveroncolor" : [ 0.396078, 0.215686, 0.05098, 0.5 ],
+					"bgovercolor" : [ 0.415686, 0.698039, 0.290196, 0.5 ],
+					"bgoveroncolor" : [ 0.415686, 0.698039, 0.290196, 0.5 ],
+					"border" : 1,
 					"fontname" : "Avenir Book",
 					"fontsize" : 12.0,
 					"id" : "obj-28",
@@ -166,7 +167,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 54.0, 203.0, 81.5, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 4.0, 81.5, 23.0 ],
+					"presentation_rect" : [ 5.0, 4.0, 86.5, 23.0 ],
+					"rounded" : 1.0,
 					"text" : ""
 				}
 
@@ -291,7 +293,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 54.0, 443.75, 104.125, 19.0 ],
-					"text" : "101 55 13"
+					"text" : "106 178 74"
 				}
 
 			}
@@ -347,13 +349,13 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 364.5, 348.25, 90.0, 19.0 ],
-					"text" : "101 55 13"
+					"text" : "106 178 74"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.396078, 0.215686, 0.05098, 1.0 ],
+					"bgcolor" : [ 0.415686, 0.698039, 0.290196, 1.0 ],
 					"border" : 1,
 					"id" : "obj-12",
 					"maxclass" : "panel",
