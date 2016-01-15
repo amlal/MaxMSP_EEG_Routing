@@ -186,8 +186,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 40.54306, 132.162659, 87.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.728637, 25.298271, 92.0, 23.0 ],
+					"presentation_rect" : [ 0.728637, 23.298271, 92.0, 23.0 ],
 					"text" : "Hello",
+					"textcolor" : [ 0.4, 0.4, 0.4, 0.6 ],
 					"textjustification" : 1
 				}
 
