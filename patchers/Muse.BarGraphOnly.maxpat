@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 9.0, 44.0, 1366.0, 602.0 ],
+		"rect" : [ 0.0, 44.0, 1366.0, 602.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -31,13 +31,26 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-13",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 931.0, 291.0, 95.0, 18.0 ],
+					"text" : "definexorigin 86"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-39",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 632.857178, -42.0, 133.0, 20.0 ],
-					"presentation_rect" : [ 632.857178, -46.0, 0.0, 0.0 ],
 					"text" : "Muse.BarGraphPacker"
 				}
 
@@ -52,7 +65,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 539.857178, -22.0, 133.0, 20.0 ],
-					"presentation_rect" : [ 538.5, -25.0, 0.0, 0.0 ],
 					"text" : "Muse.BarGraphPacker"
 				}
 
@@ -67,7 +79,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 442.5, -42.0, 133.0, 20.0 ],
-					"presentation_rect" : [ 442.5, -40.0, 0.0, 0.0 ],
 					"text" : "Muse.BarGraphPacker"
 				}
 
@@ -82,7 +93,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 356.5, -22.0, 133.0, 20.0 ],
-					"presentation_rect" : [ 360.5, -20.0, 0.0, 0.0 ],
 					"text" : "Muse.BarGraphPacker"
 				}
 
@@ -97,7 +107,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 283.5, -42.0, 133.0, 20.0 ],
-					"presentation_rect" : [ 288.142853, -43.0, 0.0, 0.0 ],
 					"text" : "Muse.BarGraphPacker"
 				}
 
@@ -112,7 +121,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 187.142853, -22.0, 133.0, 20.0 ],
-					"presentation_rect" : [ 186.0, -17.0, 0.0, 0.0 ],
 					"text" : "Muse.BarGraphPacker"
 				}
 
@@ -240,7 +248,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1100.0, 118.0, 110.0, 18.0 ],
-					"text" : "definethickness 56"
+					"text" : "definethickness 86"
 				}
 
 			}
@@ -399,7 +407,7 @@
 					"presentation_rect" : [ 4.0, 6.0, 688.0, 366.0 ],
 					"subplots" : [ 						{
 							"color" : [ 0.4, 0.4, 0.75, 1.0 ],
-							"thickness" : 56.0,
+							"thickness" : 86.0,
 							"point_style" : "none",
 							"line_style" : "origin",
 							"number_style" : "none",
@@ -419,7 +427,7 @@
 						}
 , 						{
 							"color" : [ 0.7, 0.28, 0.39, 1.0 ],
-							"thickness" : 56.0,
+							"thickness" : 86.0,
 							"point_style" : "none",
 							"line_style" : "origin",
 							"number_style" : "none",
@@ -439,7 +447,7 @@
 						}
 , 						{
 							"color" : [ 0.4, 0.4, 0.75, 1.0 ],
-							"thickness" : 56.0,
+							"thickness" : 86.0,
 							"point_style" : "none",
 							"line_style" : "origin",
 							"number_style" : "none",
@@ -459,7 +467,7 @@
 						}
 , 						{
 							"color" : [ 0.4, 0.4, 0.75, 1.0 ],
-							"thickness" : 56.0,
+							"thickness" : 86.0,
 							"point_style" : "none",
 							"line_style" : "origin",
 							"number_style" : "none",
@@ -479,7 +487,7 @@
 						}
 , 						{
 							"color" : [ 0.4, 0.4, 0.75, 1.0 ],
-							"thickness" : 56.0,
+							"thickness" : 86.0,
 							"point_style" : "none",
 							"line_style" : "origin",
 							"number_style" : "none",
@@ -499,7 +507,7 @@
 						}
 , 						{
 							"color" : [ 0.4, 0.4, 0.75, 1.0 ],
-							"thickness" : 56.0,
+							"thickness" : 86.0,
 							"point_style" : "none",
 							"line_style" : "origin",
 							"number_style" : "none",
@@ -519,7 +527,7 @@
 						}
 , 						{
 							"color" : [ 0.4, 0.4, 0.75, 1.0 ],
-							"thickness" : 56.0,
+							"thickness" : 86.0,
 							"point_style" : "none",
 							"line_style" : "origin",
 							"number_style" : "none",
@@ -539,7 +547,7 @@
 						}
 , 						{
 							"color" : [ 0.4, 0.4, 0.75, 1.0 ],
-							"thickness" : 56.0,
+							"thickness" : 86.0,
 							"point_style" : "none",
 							"line_style" : "origin",
 							"number_style" : "none",
@@ -577,6 +585,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
