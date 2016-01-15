@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 92.0, 44.0, 1366.0, 602.0 ],
+		"rect" : [ -20.0, 175.0, 1366.0, 602.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -306,7 +306,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 20.0, 24.0, 660.0, 366.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 6.0, 660.0, 366.0 ],
+					"presentation_rect" : [ 4.0, 6.0, 688.0, 366.0 ],
 					"subplots" : [ 						{
 							"color" : [ 0.4, 0.4, 0.75, 1.0 ],
 							"thickness" : 1.0,
