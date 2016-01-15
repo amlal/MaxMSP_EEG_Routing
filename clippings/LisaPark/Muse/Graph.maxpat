@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 83.0, 44.0, 1092.0, 526.0 ],
+		"rect" : [ 83.0, 44.0, 1108.0, 602.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -34,7 +34,7 @@
 					"name" : "Muse.GraphFull.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 6.0, 767.0, 439.0 ]
+					"patching_rect" : [ 5.0, 6.0, 844.0, 794.0 ]
 				}
 
 			}
@@ -42,29 +42,57 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "Muse.GraphFull.maxpat",
-				"bootpath" : "/Users/alal/Desktop/temp",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/LisaPark/patchers",
+				"patcherrelativepath" : "../../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Muse.GraphOnly.maxpat",
-				"bootpath" : "/Users/alal/Desktop/temp",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Muse.GraphPacker.maxpat",
-				"bootpath" : "/Users/alal/Desktop/temp",
-				"patcherrelativepath" : ".",
+				"name" : "Muse.GraphValueToggle.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/LisaPark/patchers",
+				"patcherrelativepath" : "../../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Muse.GraphLineColor.maxpat",
-				"bootpath" : "/Users/alal/Desktop/temp",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/LisaPark/patchers",
+				"patcherrelativepath" : "../../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Muse.GraphOnly.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/LisaPark/patchers",
+				"patcherrelativepath" : "../../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Muse.GraphPacker.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/LisaPark/patchers",
+				"patcherrelativepath" : "../../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Muse.BarGraphOnly.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/LisaPark/patchers",
+				"patcherrelativepath" : "../../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Muse.BarGraphPacker.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/LisaPark/patchers",
+				"patcherrelativepath" : "../../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Muse.GraphReceive.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/LisaPark/patchers",
+				"patcherrelativepath" : "../../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
