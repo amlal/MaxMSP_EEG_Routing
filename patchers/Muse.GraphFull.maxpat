@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 28.0, 44.0, 1257.0, 602.0 ],
+		"rect" : [ 28.0, 44.0, 1093.0, 602.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -67,7 +67,7 @@
 					"outlinecolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"patching_rect" : [ 1041.905884, 423.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 661.306152, 29.659386, 10.441076, 10.441076 ]
+					"presentation_rect" : [ 661.306152, 27.659386, 10.441076, 10.441076 ]
 				}
 
 			}
@@ -143,7 +143,7 @@
 					"outlinecolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"patching_rect" : [ 980.0, 423.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 676.27948, 47.558922, 10.441076, 10.441076 ]
+					"presentation_rect" : [ 676.27948, 45.558922, 10.441076, 10.441076 ]
 				}
 
 			}
@@ -187,7 +187,7 @@
 					"outlinecolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"patching_rect" : [ 912.0, 423.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 673.27948, 35.558922, 10.441076, 10.441076 ]
+					"presentation_rect" : [ 673.27948, 33.558922, 10.441076, 10.441076 ]
 				}
 
 			}
@@ -231,7 +231,7 @@
 					"outlinecolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"patching_rect" : [ 841.0, 423.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 648.27948, 35.558922, 10.441076, 10.441076 ]
+					"presentation_rect" : [ 648.27948, 33.558922, 10.441076, 10.441076 ]
 				}
 
 			}
@@ -275,7 +275,7 @@
 					"outlinecolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"patching_rect" : [ 772.0, 423.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 645.27948, 47.558922, 10.441076, 10.441076 ]
+					"presentation_rect" : [ 645.27948, 45.558922, 10.441076, 10.441076 ]
 				}
 
 			}
@@ -796,8 +796,8 @@
 					"maxclass" : "bpatcher",
 					"name" : "Muse.GraphValueToggle.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 611.0, 380.0, 91.0, 53.100464 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 607.0, 370.0, 91.0, 53.100464 ]
@@ -810,8 +810,8 @@
 					"maxclass" : "bpatcher",
 					"name" : "Muse.GraphValueToggle.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 525.0, 380.0, 91.0, 53.100464 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 521.0, 370.0, 91.0, 53.100464 ]
@@ -824,8 +824,8 @@
 					"maxclass" : "bpatcher",
 					"name" : "Muse.GraphValueToggle.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 439.0, 380.0, 91.0, 53.100464 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 435.0, 370.0, 91.0, 53.100464 ]
@@ -838,8 +838,8 @@
 					"maxclass" : "bpatcher",
 					"name" : "Muse.GraphValueToggle.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 353.0, 380.0, 91.0, 53.100464 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 349.0, 370.0, 91.0, 53.100464 ]
@@ -852,8 +852,8 @@
 					"maxclass" : "bpatcher",
 					"name" : "Muse.GraphValueToggle.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 267.0, 380.0, 91.0, 53.100464 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 263.0, 370.0, 91.0, 53.100464 ]
@@ -866,8 +866,8 @@
 					"maxclass" : "bpatcher",
 					"name" : "Muse.GraphValueToggle.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 181.0, 380.0, 91.0, 53.100464 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 177.0, 370.0, 91.0, 53.100464 ]
@@ -880,8 +880,8 @@
 					"maxclass" : "bpatcher",
 					"name" : "Muse.GraphValueToggle.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 95.0, 380.0, 91.0, 53.100464 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 91.0, 370.0, 91.0, 53.100464 ]
@@ -894,8 +894,8 @@
 					"maxclass" : "bpatcher",
 					"name" : "Muse.GraphValueToggle.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 9.0, 380.0, 91.0, 53.100464 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 370.0, 91.0, 53.100464 ]
@@ -917,7 +917,7 @@
 					"destination" : [ "obj-3", 7 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-10", 0 ]
+					"source" : [ "obj-10", 1 ]
 				}
 
 			}
@@ -998,7 +998,7 @@
 					"destination" : [ "obj-3", 6 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-19", 0 ]
+					"source" : [ "obj-19", 1 ]
 				}
 
 			}
@@ -1025,7 +1025,7 @@
 					"destination" : [ "obj-3", 5 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-21", 0 ]
+					"source" : [ "obj-21", 1 ]
 				}
 
 			}
@@ -1205,7 +1205,7 @@
 					"destination" : [ "obj-3", 4 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-41", 0 ]
+					"source" : [ "obj-41", 1 ]
 				}
 
 			}
@@ -1223,7 +1223,7 @@
 					"destination" : [ "obj-3", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-42", 0 ]
+					"source" : [ "obj-42", 1 ]
 				}
 
 			}
@@ -1241,7 +1241,7 @@
 					"destination" : [ "obj-3", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-44", 0 ]
+					"source" : [ "obj-44", 1 ]
 				}
 
 			}
@@ -1259,7 +1259,7 @@
 					"destination" : [ "obj-3", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-47", 0 ]
+					"source" : [ "obj-47", 1 ]
 				}
 
 			}
@@ -1277,7 +1277,7 @@
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-48", 0 ]
+					"source" : [ "obj-48", 1 ]
 				}
 
 			}
