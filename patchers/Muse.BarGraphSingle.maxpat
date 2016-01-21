@@ -116,7 +116,8 @@
 			}
 , 			{
 				"box" : 				{
-					"gridcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"gridcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-1",
 					"maxclass" : "plot~",
 					"numinlets" : 1,
@@ -131,7 +132,7 @@
 							"thickness" : 86.0,
 							"point_style" : "none",
 							"line_style" : "origin",
-							"number_style" : "above",
+							"number_style" : "none",
 							"filter" : "none",
 							"domain_start" : 0.0,
 							"domain_end" : 1.0,

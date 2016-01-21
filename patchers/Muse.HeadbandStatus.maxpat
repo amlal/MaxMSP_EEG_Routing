@@ -333,7 +333,7 @@
 					"outlinecolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"patching_rect" : [ 513.5, 255.449768, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 50.75, 26.100464, 13.0, 13.0 ]
+					"presentation_rect" : [ 54.75, 25.100464, 13.0, 13.0 ]
 				}
 
 			}
@@ -377,7 +377,7 @@
 					"outlinecolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"patching_rect" : [ 346.5, 255.449768, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 37.5, 18.350464, 13.0, 13.0 ]
+					"presentation_rect" : [ 42.5, 18.350464, 13.0, 13.0 ]
 				}
 
 			}
@@ -421,7 +421,7 @@
 					"outlinecolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"patching_rect" : [ 182.5, 255.449768, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.5, 26.100464, 13.0, 13.0 ]
+					"presentation_rect" : [ 29.5, 25.100464, 13.0, 13.0 ]
 				}
 
 			}
@@ -465,7 +465,7 @@
 					"outlinecolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"patching_rect" : [ 688.405884, 255.449768, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 55.5, 38.100464, 13.0, 13.0 ]
+					"presentation_rect" : [ 59.5, 38.100464, 13.0, 13.0 ]
 				}
 
 			}
@@ -485,17 +485,16 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 1,
 					"fontname" : "Avenir Book",
-					"fontsize" : 10.0,
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-53",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 92.0, 14.0, 92.0, 20.0 ],
+					"patching_rect" : [ 92.0, 14.0, 104.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -6.5, -2.399536, 95.0, 20.0 ],
+					"presentation_rect" : [ -6.5, -2.399536, 107.0, 23.0 ],
 					"text" : "Headband Status",
 					"textjustification" : 2
 				}
@@ -527,7 +526,7 @@
 					"outlinecolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"patching_rect" : [ 11.5, 255.449768, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.5, 38.100464, 13.0, 13.0 ]
+					"presentation_rect" : [ 25.5, 38.100464, 13.0, 13.0 ]
 				}
 
 			}
@@ -561,7 +560,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 0.48 ],
 					"id" : "obj-23",
@@ -570,7 +569,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 862.0, 160.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 1.0, 87.0, 56.5 ],
+					"presentation_rect" : [ 1.0, 1.0, 99.5, 56.5 ],
 					"rounded" : 4
 				}
 
