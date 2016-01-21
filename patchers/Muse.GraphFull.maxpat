@@ -306,6 +306,35 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 0.48 ],
+					"id" : "obj-45",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 11.0, 22.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 10.0, 21.0, 597.0, 394.771973 ],
+					"rounded" : 4
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "bpatcher",
+					"name" : "Muse.BarGraphSingle.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 9.0, 1.0, 87.0, 379.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 10.0, 21.0, 87.0, 379.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-43",
 					"maxclass" : "bpatcher",
 					"name" : "Muse.BarGraphSingle.maxpat",
@@ -379,35 +408,6 @@
 					"patching_rect" : [ 96.0, 1.0, 87.0, 379.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 95.0, 21.0, 87.0, 379.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 0.48 ],
-					"id" : "obj-45",
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 11.0, 22.0, 128.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 21.0, 597.0, 394.771973 ],
-					"rounded" : 4
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "bpatcher",
-					"name" : "Muse.BarGraphSingle.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 1.0, 87.0, 379.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 21.0, 87.0, 379.0 ]
 				}
 
 			}

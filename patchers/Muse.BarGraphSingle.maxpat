@@ -116,7 +116,7 @@
 			}
 , 			{
 				"box" : 				{
-					"gridcolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
+					"gridcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"id" : "obj-1",
 					"maxclass" : "plot~",
 					"numinlets" : 1,
