@@ -37,8 +37,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1070.0, 109.0, 120.0, 18.0 ],
-					"text" : "definenumber above"
+					"patching_rect" : [ 1070.0, 109.0, 114.0, 18.0 ],
+					"text" : "definenumber none"
 				}
 
 			}
