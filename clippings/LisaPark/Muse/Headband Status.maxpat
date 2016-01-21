@@ -34,7 +34,7 @@
 					"name" : "Muse.HeadbandStatus.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 93.0, 61.0 ]
+					"patching_rect" : [ 0.0, 0.0, 105.0, 61.0 ]
 				}
 
 			}

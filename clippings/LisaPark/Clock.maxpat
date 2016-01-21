@@ -31,17 +31,17 @@
 				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
-					"name" : "Clock.maxpat",
+					"name" : "LisaClock.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 0.0, 119.0, 38.0 ]
+					"patching_rect" : [ 1.0, 0.0, 126.0, 41.0 ]
 				}
 
 			}
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
-				"name" : "Clock.maxpat",
+				"name" : "LisaClock.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/LisaPark/patchers",
 				"patcherrelativepath" : "../../patchers",
 				"type" : "JSON",
