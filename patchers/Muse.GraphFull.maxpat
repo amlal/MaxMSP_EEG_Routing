@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 90.0, 44.0, 1083.0, 602.0 ],
+		"rect" : [ 110.0, 55.0, 1083.0, 602.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -115,7 +115,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 712.0, 342.0, 123.0, 38.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 247.0, 17.350464, 123.0, 38.0 ]
+					"presentation_rect" : [ 233.0, 17.350464, 154.0, 38.0 ]
 				}
 
 			}
@@ -891,6 +891,13 @@
 			}
 , 			{
 				"name" : "Clock.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/LisaPark/clippings/LisaPark",
+				"patcherrelativepath" : "../clippings/LisaPark",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "LisaClock.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/LisaPark/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
