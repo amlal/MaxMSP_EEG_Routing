@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 78.0, 59.0, 640.0, 480.0 ],
+		"rect" : [ 78.0, 59.0, 1157.0, 503.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,48 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 517.0, 307.0, 117.0, 20.0 ],
+					"text" : "prepend definecolor"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "bgcolor",
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-35",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 517.0, 121.0, 150.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "Color Input",
+					"comment" : "Color Input",
+					"hint" : "Color Input",
+					"id" : "obj-4",
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 517.0, 87.152512, 25.0, 25.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -134,31 +176,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 155.0, 315.0, 107.0, 18.0 ],
 					"text" : "definethickness 0."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-8",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.54306, 315.0, 107.0, 18.0 ],
-					"text" : "definethickness 1."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
-					"id" : "obj-7",
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 40.54306, 394.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -290,15 +307,24 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-4",
-					"maxclass" : "bpatcher",
-					"name" : "Muse.GraphLineColor.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 526.0, 205.0, 128.0, 128.0 ],
+					"bgcolor" : [ 1.0, 0.701725, 0.504545, 1.0 ],
+					"bgoncolor" : [ 0.490196, 0.066667, 0.384314, 1.0 ],
+					"bgovercolor" : [ 0.419608, 0.741176, 0.682353, 0.5 ],
+					"bgoveroncolor" : [ 0.419608, 0.741176, 0.682353, 0.5 ],
+					"border" : 0,
+					"fontname" : "Avenir Book",
+					"fontsize" : 12.0,
+					"id" : "obj-28",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 517.0, 153.162659, 81.5, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -2.271363, -3.527097, 128.0, 128.0 ]
+					"presentation_rect" : [ 2.728637, 0.298271, 86.5, 23.0 ],
+					"rounded" : 1.0,
+					"text" : ""
 				}
 
 			}
@@ -435,19 +461,18 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
+					"destination" : [ "obj-28", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-3", 0 ]
+					"source" : [ "obj-35", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
+					"destination" : [ "obj-35", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 535.5, 383.0, 213.5, 383.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -457,7 +482,6 @@
 					"destination" : [ "obj-7", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 535.5, 383.0, 50.04306, 383.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -503,10 +527,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-8", 0 ]
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
@@ -519,24 +543,8 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-9", 0 ]
-				}
-
-			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "Muse.GraphLineColor.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/LisaPark/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ]
+		"dependency_cache" : [  ]
 	}
 
 }

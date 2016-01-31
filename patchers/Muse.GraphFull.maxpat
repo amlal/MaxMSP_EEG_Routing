@@ -298,9 +298,9 @@
 					"id" : "obj-19",
 					"maxclass" : "bpatcher",
 					"name" : "Muse.GraphValueToggle.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 884.0, 53.0, 91.0, 53.100464 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 518.0, 370.0, 91.0, 45.771957 ]
@@ -312,9 +312,9 @@
 					"id" : "obj-21",
 					"maxclass" : "bpatcher",
 					"name" : "Muse.GraphValueToggle.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 798.0, 53.0, 91.0, 53.100464 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 433.0, 370.0, 91.0, 45.771957 ]
@@ -326,9 +326,9 @@
 					"id" : "obj-41",
 					"maxclass" : "bpatcher",
 					"name" : "Muse.GraphValueToggle.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 712.0, 53.0, 91.0, 53.100464 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 347.0, 370.0, 91.0, 45.771957 ]
@@ -340,9 +340,9 @@
 					"id" : "obj-42",
 					"maxclass" : "bpatcher",
 					"name" : "Muse.GraphValueToggle.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 626.0, 53.0, 91.0, 53.100464 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 262.0, 370.0, 91.0, 45.771957 ]
@@ -354,9 +354,9 @@
 					"id" : "obj-44",
 					"maxclass" : "bpatcher",
 					"name" : "Muse.GraphValueToggle.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 540.0, 53.0, 91.0, 53.100464 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 178.0, 370.0, 91.0, 45.771957 ]
@@ -368,9 +368,9 @@
 					"id" : "obj-47",
 					"maxclass" : "bpatcher",
 					"name" : "Muse.GraphValueToggle.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 454.0, 53.0, 91.0, 53.100464 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 93.0, 370.0, 91.0, 45.771957 ]
@@ -382,9 +382,9 @@
 					"id" : "obj-48",
 					"maxclass" : "bpatcher",
 					"name" : "Muse.GraphValueToggle.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 368.0, 53.0, 91.0, 53.100464 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 370.0, 91.0, 45.771957 ]
@@ -501,26 +501,6 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 965.5, 115.050232, 536.5, 115.050232 ],
-					"source" : [ "obj-19", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-40", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 879.5, 113.050232, 450.5, 113.050232 ],
-					"source" : [ "obj-21", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -544,7 +524,7 @@
 					"destination" : [ "obj-19", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 182.5, 90.550232, 227.0, 90.550232, 227.0, 43.0, 965.5, 43.0 ],
+					"midpoints" : [ 182.5, 90.550232, 227.0, 90.550232, 227.0, 43.0, 929.5, 43.0 ],
 					"source" : [ "obj-4", 6 ]
 				}
 
@@ -554,7 +534,7 @@
 					"destination" : [ "obj-21", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 155.333328, 90.550232, 226.416687, 90.550232, 226.416687, 43.0, 879.5, 43.0 ],
+					"midpoints" : [ 155.333328, 90.550232, 226.416687, 90.550232, 226.416687, 43.0, 843.5, 43.0 ],
 					"source" : [ "obj-4", 5 ]
 				}
 
@@ -594,7 +574,7 @@
 					"destination" : [ "obj-41", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 128.166672, 90.550232, 228.833344, 90.550232, 228.833344, 43.0, 793.5, 43.0 ],
+					"midpoints" : [ 128.166672, 90.550232, 228.833344, 90.550232, 228.833344, 43.0, 757.5, 43.0 ],
 					"source" : [ "obj-4", 4 ]
 				}
 
@@ -604,7 +584,7 @@
 					"destination" : [ "obj-42", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 101.0, 90.550232, 227.25, 90.550232, 227.25, 43.0, 707.5, 43.0 ],
+					"midpoints" : [ 101.0, 90.550232, 227.25, 90.550232, 227.25, 43.0, 671.5, 43.0 ],
 					"source" : [ "obj-4", 3 ]
 				}
 
@@ -624,7 +604,7 @@
 					"destination" : [ "obj-44", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 73.833336, 90.550232, 227.666656, 90.550232, 227.666656, 43.0, 621.5, 43.0 ],
+					"midpoints" : [ 73.833336, 90.550232, 227.666656, 90.550232, 227.666656, 43.0, 585.5, 43.0 ],
 					"source" : [ "obj-4", 2 ]
 				}
 
@@ -634,7 +614,7 @@
 					"destination" : [ "obj-47", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 46.666668, 90.550232, 228.083344, 90.550232, 228.083344, 43.0, 535.5, 43.0 ],
+					"midpoints" : [ 46.666668, 90.550232, 228.083344, 90.550232, 228.083344, 43.0, 499.5, 43.0 ],
 					"source" : [ "obj-4", 1 ]
 				}
 
@@ -644,7 +624,7 @@
 					"destination" : [ "obj-48", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 19.5, 90.550232, 230.5, 90.550232, 230.5, 43.0, 449.5, 43.0 ],
+					"midpoints" : [ 19.5, 90.550232, 230.5, 90.550232, 230.5, 43.0, 413.5, 43.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -661,51 +641,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 793.5, 115.050232, 364.5, 115.050232 ],
-					"source" : [ "obj-41", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 707.5, 116.050232, 278.5, 116.050232 ],
-					"source" : [ "obj-42", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 621.5, 115.050232, 192.5, 115.050232 ],
-					"source" : [ "obj-44", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 535.5, 114.050232, 106.5, 114.050232 ],
-					"source" : [ "obj-47", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 449.5, 115.050232, 19.5, 115.050232 ],
-					"source" : [ "obj-48", 1 ]
+					"source" : [ "obj-48", 0 ]
 				}
 
 			}
@@ -863,13 +802,6 @@
 			}
 , 			{
 				"name" : "Muse.GraphValueToggle.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/LisaPark/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Muse.GraphLineColor.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/LisaPark/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
