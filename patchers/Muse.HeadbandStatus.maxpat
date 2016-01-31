@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
@@ -323,7 +323,7 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"blinkcolor" : [ 0.010066, 1.0, 0.0, 1.0 ],
-					"fgcolor" : [ 1.0, 0.014551, 0.000274, 1.0 ],
+					"fgcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 					"id" : "obj-63",
 					"ignoreclick" : 1,
 					"maxclass" : "button",
@@ -333,7 +333,7 @@
 					"outlinecolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"patching_rect" : [ 513.5, 255.449768, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 54.75, 25.100464, 13.0, 13.0 ]
+					"presentation_rect" : [ 59.174587, 38.100464, 13.0, 13.0 ]
 				}
 
 			}
@@ -367,7 +367,7 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"blinkcolor" : [ 0.010066, 1.0, 0.0, 1.0 ],
-					"fgcolor" : [ 1.0, 0.014551, 0.000274, 1.0 ],
+					"fgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-36",
 					"ignoreclick" : 1,
 					"maxclass" : "button",
@@ -377,7 +377,7 @@
 					"outlinecolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"patching_rect" : [ 346.5, 255.449768, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 42.5, 18.350464, 13.0, 13.0 ]
+					"presentation_rect" : [ 56.174587, 25.100464, 13.0, 13.0 ]
 				}
 
 			}
@@ -411,7 +411,7 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"blinkcolor" : [ 0.010066, 1.0, 0.0, 1.0 ],
-					"fgcolor" : [ 1.0, 0.014551, 0.000274, 1.0 ],
+					"fgcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 					"id" : "obj-32",
 					"ignoreclick" : 1,
 					"maxclass" : "button",
@@ -455,7 +455,7 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"blinkcolor" : [ 0.010066, 1.0, 0.0, 1.0 ],
-					"fgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"fgcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 					"id" : "obj-61",
 					"ignoreclick" : 1,
 					"maxclass" : "button",
@@ -465,7 +465,7 @@
 					"outlinecolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"patching_rect" : [ 688.405884, 255.449768, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 59.5, 38.100464, 13.0, 13.0 ]
+					"presentation_rect" : [ 44.25, 17.350464, 13.0, 13.0 ]
 				}
 
 			}
@@ -516,7 +516,7 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"blinkcolor" : [ 0.010066, 1.0, 0.0, 1.0 ],
-					"fgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"fgcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 					"id" : "obj-25",
 					"ignoreclick" : 1,
 					"maxclass" : "button",
