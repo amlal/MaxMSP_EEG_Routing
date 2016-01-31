@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
@@ -34,7 +34,7 @@
 					"name" : "LisaClock.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 0.0, 126.0, 41.0 ]
+					"patching_rect" : [ 1.0, 0.0, 153.0, 40.0 ]
 				}
 
 			}

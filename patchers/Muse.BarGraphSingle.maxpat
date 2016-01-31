@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1366.0, 602.0 ],
+		"rect" : [ 128.0, 46.0, 1366.0, 602.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -147,7 +147,8 @@
 							"origin_x" : 0.0,
 							"origin_y" : 0.0
 						}
- ]
+ ],
+					"thinmode" : "none"
 				}
 
 			}
