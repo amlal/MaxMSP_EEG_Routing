@@ -316,7 +316,7 @@
 					"patching_rect" : [ 205.0, 354.600464, 39.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 85.031555, 2.348263, 35.0, 34.0 ],
-					"text" : "37",
+					"text" : "0",
 					"textjustification" : 1
 				}
 
