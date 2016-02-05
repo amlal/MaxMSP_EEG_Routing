@@ -31,6 +31,20 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 463.0, 357.0, 150.0, 20.0 ],
+					"text" : "test"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-24",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -316,7 +330,7 @@
 					"patching_rect" : [ 205.0, 354.600464, 39.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 85.031555, 2.348263, 35.0, 34.0 ],
-					"text" : "37",
+					"text" : "0",
 					"textjustification" : 1
 				}
 
