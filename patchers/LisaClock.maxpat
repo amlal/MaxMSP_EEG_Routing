@@ -270,6 +270,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"fontname" : "Avenir Book",
 					"fontsize" : 20.0,
 					"frgb" : 0.0,
@@ -286,6 +287,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"fontname" : "Avenir Book",
 					"fontsize" : 20.0,
 					"frgb" : 0.0,
@@ -303,6 +305,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"fontname" : "Avenir Book",
 					"fontsize" : 20.0,
 					"frgb" : 0.0,
@@ -312,14 +315,15 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 205.0, 354.600464, 39.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 85.031555, 2.348263, 31.0, 34.0 ],
-					"text" : "0",
+					"presentation_rect" : [ 85.031555, 2.348263, 35.0, 34.0 ],
+					"text" : "37",
 					"textjustification" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"fontname" : "Avenir Book",
 					"fontsize" : 20.0,
 					"frgb" : 0.0,
@@ -336,6 +340,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"fontname" : "Avenir Book",
 					"fontsize" : 20.0,
 					"frgb" : 0.0,
@@ -345,7 +350,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 151.0, 354.600464, 34.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 40.0, 2.348263, 33.0, 34.0 ],
+					"presentation_rect" : [ 42.0, 2.348263, 33.0, 34.0 ],
 					"text" : "0",
 					"textjustification" : 1
 				}

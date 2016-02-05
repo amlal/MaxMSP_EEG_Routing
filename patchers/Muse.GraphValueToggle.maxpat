@@ -85,6 +85,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"fontname" : "Avenir Book",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
@@ -92,9 +93,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 399.25, 153.162659, 84.0, 23.0 ],
+					"patching_rect" : [ 399.25, 153.162659, 88.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.728637, 0.298271, 89.0, 23.0 ],
+					"presentation_rect" : [ 0.728637, 0.298271, 93.0, 23.0 ],
 					"text" : "0.0",
 					"textjustification" : 1
 				}
@@ -254,7 +255,7 @@
 					"outlettype" : [ "bang", "bang", "", "int" ],
 					"patching_rect" : [ 40.54306, 132.162659, 81.5, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.728637, 21.91604, 86.580261, 24.882231 ],
+					"presentation_rect" : [ 2.728637, 22.916039, 86.580261, 24.882231 ],
 					"toggle" : 1
 				}
 
@@ -271,7 +272,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 40.54306, 132.162659, 88.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.728637, 23.298271, 93.0, 23.0 ],
+					"presentation_rect" : [ 0.728637, 24.298271, 93.0, 23.0 ],
 					"text" : "Hello",
 					"textjustification" : 1
 				}
@@ -295,7 +296,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 517.0, 153.162659, 81.5, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.728637, 0.298271, 86.5, 23.0 ],
+					"presentation_rect" : [ 2.728637, 1.298271, 86.5, 23.0 ],
 					"rounded" : 1.0,
 					"text" : ""
 				}
